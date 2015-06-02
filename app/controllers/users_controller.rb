@@ -2,7 +2,7 @@ class UsersController < ApplicationController
  # GET /users
  # GET /users.json
   def index
-   @users ="hello jansi"
+   @users ="hello ignitemindz"
    
     respond_to do |format|
       format.json { render json: @users }
